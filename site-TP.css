@@ -1,0 +1,323 @@
+@font-face {
+    font-family: 'philosopherregular';
+    src: url('polices/Philosopher-Regular-webfont.eot');
+    src: url('polices/Philosopher-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Philosopher-Regular-webfont.woff2') format('woff2'),
+         url('polices/Philosopher-Regular-webfont.woff') format('woff'),
+         url('polices/Philosopher-Regular-webfont.ttf') format('truetype'),
+         url('polices/Philosopher-Regular-webfont.svg#philosopherregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'action_manregular';
+    src: url('polices/Action_Man-webfont.eot');
+    src: url('polices/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('polices/Action_Man-webfont.woff2') format('woff2'),
+         url('polices/Action_Man-webfont.woff') format('woff'),
+         url('polices/Action_Man-webfont.ttf') format('truetype'),
+         url('polices/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1
+{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-family: 'philosopherregular';
+	color: #FFD700;
+	font-weight: bold;
+}
+h2
+{
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-family: 'philosopherregular';
+	color: #FFD700;
+	font-weight: bold;
+}
+body
+{
+	background: url(compostelle/comp17.jpg);
+	font-family: 'action_manregular';
+}
+#bloc-page
+{
+	width: 85%;
+	margin: auto;
+}
+
+/* hearder */
+header
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+header h1
+{
+	text-transform: uppercase;
+	font-size: 3.0em;
+	font-family: 'philosopherregular';
+	align-self: flex-end;
+	margin-bottom: auto;
+}
+#logo img
+{
+	width: 100px;
+	height: 107px;
+}
+#logo
+{
+	display: flex;
+}
+header ul
+{
+	display: flex;
+}
+header li 
+{
+	font-size: 2.0em;
+	margin-left: 20px;
+	margin-right: 20px;
+	list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFD700;
+}
+nav a
+{
+	margin-left: 20px;
+	margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFD700;
+}
+#lienb a
+{
+	text-decoration: none;
+}
+#lienb :hover
+{
+	color: red;
+}
+/* bannière */
+#bannière-image
+{
+	width: 100%;
+	display: flex;
+	margin-left: 0px;
+	margin-top: 0px;
+	flex-direction: column;
+	background-color: white;
+	font-size: 1.2em;
+	color: black;
+}
+/* section */
+section
+{
+	display: flex;
+	color: black;
+}
+/* article */
+article
+{
+	border: 2px solid black;
+	border-radius: 20px;
+	background: rgba(255,250,240,0.4);
+    font-size: 1.2em;
+    flex: 2;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+article ul
+{
+	list-style-type:none;
+}
+h2 strong
+{
+	font-weight: bold;
+}
+/* aside */
+aside
+{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	border: 2px solid black;
+	border-radius: 20px;
+	background: rgba(255,250,240,0.4);
+	font-size: 1.5em;
+	text-align: center;
+	height: 50%;
+	padding: 10px;
+}
+aside div
+{
+	flex-direction: column;
+	align-self: center;
+}
+#photo img
+{
+	display: flex;
+	width: 400px;
+	height: 300px;
+}
+strong
+{
+	font-weight: normal;
+}
+em
+{
+	font-style: normal;
+}
+#imgfacebook
+{
+	width: 80px;
+	height: 80px;
+}
+#imginsta
+{
+	width: 80px;
+	height: 80px;
+	margin-right: 30px;
+	margin-left: 30px;
+}
+#imgyt
+{
+	width: 80px;
+	height: 80px;
+}
+footer
+{
+	display: flex;
+	font-size: 1.2em;
+	border: 2px solid black;
+	border-radius: 20px;
+	background: rgba(255,250,240,0.4);
+	justify-content: space-around;
+	align-items: center;
+	color: black;
+}
+#lien
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+#lien a
+{
+	text-decoration: none;
+	color: black;
+	border: 1px dotted red;
+	margin: 5px;
+}
+footer figure
+{
+	display: flex;
+	width: 40%;	
+}
+#photocomp
+{
+	width: 100px;
+	height: 100px;
+}
+#photocorée
+{
+	width: 100px;
+	height: 100px;
+}
+#photojap
+{
+	width: 100px;
+	height: 100px;
+}
+#photopuy
+{
+	width: 100px;
+	height: 100px;
+}
+#citation
+{
+	width: 30%;
+}
+#lien :hover
+{
+	color: red;
+}
+@media all and (max-width: 1024px)
+{
+	#lienb
+	{
+		flex-direction: column;
+	}
+	header li
+	{
+		font-size: 1.0em;
+	}
+	header h1
+	{
+		font-size: 2em;
+	}
+	#bannière-image
+	{
+		display: none;
+	}
+    section
+    {
+    	flex-direction: column;
+    }
+    aside
+    {
+    	text-align: left;
+    }
+    #photo img
+    {
+    	float: right;
+    	width: 200px;
+    	height: 150px;
+    	margin-top: 30px;
+    }
+    aside p
+    {
+    	width: 70%;
+    }
+    aside figure
+    {
+    	margin: auto;
+    	justify-content: space-around;
+    }
+    footer
+    {
+    	flex-direction: column;
+    }
+   #photocomp
+	{
+		width: 70px;
+		height: 70px;
+	}
+	#photocorée
+	{
+		width: 70px;
+		height: 70px;
+	}
+	#photojap
+	{
+		width: 70px;
+		height: 70px;
+	}
+	#photopuy
+	{
+		width: 70px;
+		height: 70px;
+	}
+	footer figure
+	{
+		justify-content: center;
+	}
+}
