@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'action_manregular';
+    src: url('../polices/Action_Man-webfont.eot');
+    src: url('../polices/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../polices/Action_Man-webfont.woff2') format('woff2'),
+         url('../polices/Action_Man-webfont.woff') format('woff'),
+         url('../polices/Action_Man-webfont.ttf') format('truetype'),
+         url('../polices/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    background: url(backgroundCV.jpg);
+    background-size: 100%;
+    display: flex;
+}
+h1, h2
+{
+    font-family:'action_manregular'; 
+}
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+}
+img
+{
+    float: right;
+    width: 7%;
+    height: 7%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px black;
+    margin-right: 10px;
+}
+h1
+{
+    height: 7%;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    border: 3px solid black;
+    border-radius: 20px;
+    background: rgba(128,128,128,0.6);
+    width: 35%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 3px 3px 3px black;
+}
+#liseré, #contenu
+{
+    display: inline-block;
+    vertical-align: top;
+}
+#liseré
+{
+    width: 10%;
+    background : gray;
+    height: 700px;
+    margin-right: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+#tel{
+    margin:10px 7px 10px 6px;
+}
+#mail{
+    margin:10px 7px 10px 6px;
+}
+#adresse{
+    margin:10px 7px 10px 6px;
+}
+#permis{
+    margin:10px 7px 10px 6px;
+}
+#contenu
+{
+    width: 90%;
+}
+#contenu+p
+{
+    display: flex;
+    border: 2px solid black;
+}
+h2
+{
+    font-size: 1.9em;
+    border: 2px solid gray;
+    text-align: center;
+    margin: auto;
+}
+ul
+{
+    font-size: 1.4em;
+    list-style-type: none;
+}
+#contenu p
+{
+    font-size: 1.4em;
+    margin-bottom: 7px;
+}
+li
+{
+    margin-bottom: 14px;
+}
+#tel{
+
+}
+
+/*largeur maximum de 1024 px faite pour observer le changement sur navigateur PC ceci est sensé être une version mobile avec une largeur de 480px */
+@media all and (max-width: 1024px)
+{
+    #allsection
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    #liseré
+    {
+        display: none;
+    }
+    section
+    {
+        width: 90%;
+    }
+    h1
+    {
+        width: 50%;
+        font-size: 2.0em;
+    }
+    img
+    {
+        width: 15%;
+        height :15%;
+    }
+}
