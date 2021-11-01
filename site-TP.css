@@ -22,7 +22,7 @@ body
     font-family: 'Open Sans Condensed', sans-serif;
 	font-family: 'Zen Old Mincho', serif;
 }
-#bloc-page
+main
 {
 	width: 85%;
 	margin: auto;
@@ -44,12 +44,12 @@ header h1
 	align-self: flex-end;
 	margin-bottom: auto;
 }
-#logo img
+.logo img
 {
 	width: 100px;
 	height: 107px;
 }
-#logo
+.logo
 {
 	display: flex;
 }
@@ -75,16 +75,16 @@ nav a
     font-weight: bold;
     color: #FFD700;
 }
-#lienb a
+.lienb a
 {
 	text-decoration: none;
 }
-#lienb :hover
+.lienb :hover
 {
 	color: red;
 }
 /* bannière */
-#bannière-image
+.bannière-image
 {
 	width: 100%;
 	display: flex;
@@ -155,19 +155,19 @@ em
 {
 	font-style: normal;
 }
-#imgfacebook
+.imgfacebook
 {
 	width: 80px;
 	height: 80px;
 }
-#imginsta
+.imginsta
 {
 	width: 80px;
 	height: 80px;
 	margin-right: 30px;
 	margin-left: 30px;
 }
-#imgyt
+.imgyt
 {
 	width: 80px;
 	height: 80px;
@@ -183,13 +183,13 @@ footer
 	align-items: center;
 	color: black;
 }
-#lien
+.lien
 {
 	display: flex;
 	flex-direction: column;
 	width: 30%;
 }
-#lien a
+.lien a
 {
 	text-decoration: none;
 	color: black;
@@ -201,37 +201,37 @@ footer figure
 	display: flex;
 	width: 40%;	
 }
-#photocomp
+.photocomp
 {
 	width: 100px;
 	height: 100px;
 }
-#photocorée
+.photocorée
 {
 	width: 100px;
 	height: 100px;
 }
-#photojap
+.photojap
 {
 	width: 100px;
 	height: 100px;
 }
-#photopuy
+.photopuy
 {
 	width: 100px;
 	height: 100px;
 }
-#citation
+.citation
 {
 	width: 30%;
 }
-#lien :hover
+.lien :hover
 {
 	color: red;
 }
 @media all and (max-width: 1024px)
 {
-	#lienb
+	.lienb
 	{
 		flex-direction: column;
 	}
@@ -243,7 +243,7 @@ footer figure
 	{
 		font-size: 2em;
 	}
-	#bannière-image
+	.bannière-image
 	{
 		display: none;
 	}
@@ -255,7 +255,7 @@ footer figure
     {
     	text-align: left;
     }
-    #photo img
+    .photo img
     {
     	float: right;
     	width: 200px;
@@ -275,22 +275,22 @@ footer figure
     {
     	flex-direction: column;
     }
-   #photocomp
+   .photocomp
 	{
 		width: 70px;
 		height: 70px;
 	}
-	#photocorée
+	.photocorée
 	{
 		width: 70px;
 		height: 70px;
 	}
-	#photojap
+	.photojap
 	{
 		width: 70px;
 		height: 70px;
 	}
-	#photopuy
+	.photopuy
 	{
 		width: 70px;
 		height: 70px;
